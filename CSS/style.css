@@ -112,3 +112,36 @@ body {
     object-fit: cover; /* ทำให้รูปภาพไม่บิดเบือน */
 }
 
+/* ในไฟล์ CSS */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.book-card {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.book-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;  /* การเปลี่ยนแปลงที่ลื่นไหล */
+}
+
+.book-card:hover {
+  transform: translateY(-10px);  /* เคลื่อนที่ขึ้น 10px เมื่อเมาส์อยู่เหนือ */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);  /* เพิ่มเงาเมื่อ hover */
+}
+
+.book-card:focus {
+  transform: translateY(-10px);  /* เคลื่อนที่ขึ้น 10px เมื่อมีการโฟกัส */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);  /* เพิ่มเงาเมื่อโฟกัส */
+}
