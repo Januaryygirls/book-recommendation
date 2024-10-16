@@ -1,147 +1,148 @@
 body {
-    background-color: rgb(255, 255, 255);
-  }
+  background-color: rgb(255, 255, 255);
+}
 
-  .nav-link.active {
-    color: rgb(0, 0, 0);
-  }
+.nav-link.active {
+  color: rgb(0, 0, 0);
+}
 
-  .nav-link {
-    color: rgb(0, 0, 0);
-  }
-  
-  .nav-item:nth-child(3) .nav-link {
-    color: rgb(0, 0, 0);
-  }
+.nav-link {
+  color: rgb(0, 0, 0);
+}
 
-  .prompt-thin {
-    font-family: "Prompt", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .prompt-regular {
-    font-family: "Prompt", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .prompt-medium {
-    font-family: "Prompt", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .sarabun-thin {
-    font-family: "Sarabun", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .sarabun-regular {
-    font-family: "Sarabun", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .custom-font{
-    font-size: 19px;
-  }
+.nav-item:nth-child(3) .nav-link {
+  color: rgb(0, 0, 0);
+}
 
-  .custom-size-genre{
-    font-size: 14px;
-  }
+.prompt-thin {
+  font-family: "Prompt", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
 
-  .custom-button {
-    background-color: #184b75; /* เปลี่ยนเป็นสีที่คุณต้องการ */
-    color: #ffffff; /* สีตัวอักษร */
-    border: none; /* ไม่มีขอบ */
+.prompt-regular {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.prompt-medium {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.sarabun-thin {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.sarabun-regular {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.custom-font{
+  font-size: 19px;
+}
+
+.custom-size-genre{
+  font-size: 14px;
+}
+
+.custom-button {
+  background-color: #184b75; /* เปลี่ยนเป็นสีที่คุณต้องการ */
+  color: #ffffff; /* สีตัวอักษร */
+  border: none; /* ไม่มีขอบ */
 }
 
 .custom-button:hover {
-    background-color: rgb(60, 105, 143); /* สีพื้นหลังเมื่อวางเมาส์ */
-    color: #ffffff; /* สีตัวอักษรเมื่อวางเมาส์ */
+  background-color: rgb(60, 105, 143); /* สีพื้นหลังเมื่อวางเมาส์ */
+  color: #ffffff; /* สีตัวอักษรเมื่อวางเมาส์ */
 }
 
 .page-link {
-    color: black; /* เปลี่ยนสีตัวอักษรเป็นสีดำ */
+  color: black; /* เปลี่ยนสีตัวอักษรเป็นสีดำ */
 }
 
 .page-link:hover {
-    color: #000000; /* เปลี่ยนสีเมื่อวางเมาส์ (สามารถปรับได้ตามต้องการ) */
+  color: #000000; /* เปลี่ยนสีเมื่อวางเมาส์ (สามารถปรับได้ตามต้องการ) */
 }
 
 .image-border {
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
 }
 
 .custom-color {
-    color: #184b75;
+  color: #184b75;
 }
 
 .highlight {
-        background-color: #184b75; /* เปลี่ยนเป็นสีที่คุณต้องการ */
-    }
+      background-color: #184b75; /* เปลี่ยนเป็นสีที่คุณต้องการ */
+  }
 
 .border-box {
-        border: 2px solid #b1b1b1; /* เปลี่ยนสีและขนาดของกรอบได้ */
-        padding: 10px; /* เพิ่มช่องว่างภายในกรอบ */
-        border-radius: 5px; /* ทำมุมกรอบให้มน */
-        background-color: #f8f9fa; /* สีพื้นหลัง */
-        margin: 10px 0; /* ช่องว่างด้านบนและด้านล่าง */
-    }
+      border: 2px solid #b1b1b1; /* เปลี่ยนสีและขนาดของกรอบได้ */
+      padding: 10px; /* เพิ่มช่องว่างภายในกรอบ */
+      border-radius: 5px; /* ทำมุมกรอบให้มน */
+      background-color: #f8f9fa; /* สีพื้นหลัง */
+      margin: 10px 0; /* ช่องว่างด้านบนและด้านล่าง */
+  }
 
 /* Homepage-col-phone */
-    .small-card {
-      width: 150px; /* ขนาดความกว้างของ Card */
-      margin: 10px; /* เพิ่ม margin รอบ ๆ Card */
-  }
+  .small-card {
+    width: 150px; /* ขนาดความกว้างของ Card */
+    margin: 10px; /* เพิ่ม margin รอบ ๆ Card */
+}
 
-  /* สำหรับอุปกรณ์มือถือ */
-  @media (max-width: 576px) {
-      .horizontal-cards {
-          display: flex; /* ใช้ flexbox เพื่อจัดเรียง Card ในแถวเดียวกัน */
-          overflow-x: auto; /* ให้สามารถเลื่อน Card ได้ */
-      }
-  }
+/* สำหรับอุปกรณ์มือถือ */
+@media (max-width: 576px) {
+    .horizontal-cards {
+        display: flex; /* ใช้ flexbox เพื่อจัดเรียง Card ในแถวเดียวกัน */
+        overflow-x: auto; /* ให้สามารถเลื่อน Card ได้ */
+    }
+}
 
-  .card-img-top-size {
-    width: 300px; /* ขนาดความกว้างของรูปภาพ */
-    height: 300px; /* ขนาดความสูงของรูปภาพ */
-    object-fit: cover; /* ทำให้รูปภาพไม่บิดเบือน */
+.card-img-top-size {
+  width: 300px; /* ขนาดความกว้างของรูปภาพ */
+  height: 300px; /* ขนาดความสูงของรูปภาพ */
+  object-fit: cover; /* ทำให้รูปภาพไม่บิดเบือน */
 }
 
 /* ในไฟล์ CSS */
 @keyframes fadeIn {
-  from {
-      opacity: 0;
-      transform: translateY(20px);
-  }
-  to {
-      opacity: 1;
-      transform: translateY(0);
-  }
+from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
 }
 
 .book-card {
-  animation: fadeIn 0.8s ease-in-out;
+animation: fadeIn 0.8s ease-in-out;
 }
 
 html {
-  scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 
 .book-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;  /* การเปลี่ยนแปลงที่ลื่นไหล */
+transition: transform 0.3s ease, box-shadow 0.3s ease;  /* การเปลี่ยนแปลงที่ลื่นไหล */
 }
 
 .book-card:hover {
-  transform: translateY(-10px);  /* เคลื่อนที่ขึ้น 10px เมื่อเมาส์อยู่เหนือ */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);  /* เพิ่มเงาเมื่อ hover */
+transform: translateY(-10px);  /* เคลื่อนที่ขึ้น 10px เมื่อเมาส์อยู่เหนือ */
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);  /* เพิ่มเงาเมื่อ hover */
 }
 
 .book-card:focus {
-  transform: translateY(-10px);  /* เคลื่อนที่ขึ้น 10px เมื่อมีการโฟกัส */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);  /* เพิ่มเงาเมื่อโฟกัส */
+transform: translateY(-10px);  /* เคลื่อนที่ขึ้น 10px เมื่อมีการโฟกัส */
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);  /* เพิ่มเงาเมื่อโฟกัส */
 }
+
