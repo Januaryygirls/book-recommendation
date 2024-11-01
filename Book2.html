@@ -18,7 +18,6 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;500&family=Sarabun:wght@100;400&display=swap" rel="stylesheet">
 
-   <link type="text/css" rel="stylesheet" href="css/lightbox.min.css">
 
   </head>
   <body>
@@ -27,7 +26,7 @@
       <!-- start Navbar -->
       <nav class="navbar navbar-expand-lg bg-body-light">
          <div class="container-fluid">
-           <a class="navbar-brand" href="#"> <img src="images/Logo_Booklists-removebg-preview.png" class="img-fluid mx-5" width="60" height="60" ></a>
+           <a class="navbar-brand" href="index.html"> <img src="images/Logo_Booklists-removebg-preview.png" class="img-fluid mx-5" width="60" height="60" ></a>
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
            </button>
@@ -55,7 +54,7 @@
         <div class="row">
             <!-- คอลัมน์ซ้าย: รูปหนังสือ และปุ่มต่างๆ -->
             <div class="col-md-4 text-center">
-              <a href="images/AFarewell_Cover_Real.png" data-lightbox="AFarewellCover"><img src="images/AFarewell_Cover_Real.png" alt="Book Cover" class="book-image img-fluid"></a>
+              <a href="images/AFarewell_Cover_Real.png"><img src="images/AFarewell_Cover_Real.png" alt="Book Cover" class="book-image img-fluid"></a>
               <br>
                 <div class="row d-flex justify-content-center my-2">
                     <a href="https://thailand.kinokuniya.com/bw/9780099910107?no_flag=true" target="_blank" class="btn custom-button custom-button:hover w-auto mx-2 prompt-regular" role="button">Book Shop</a>
@@ -94,7 +93,39 @@
                     <span class="badge bg-secondary sarabun-regular custom-size-genre">นิยายดราม่า</span>
                 </div>
                 
-                <br>
+                <br><br>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light sarabun-regular" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  ＊ ข้อตกลงสำหรับการแสดงความคิดเห็น ＊
+                  </button>
+  
+  
+                 <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5 sarabun-regular" id="exampleModalLabel">＊ ข้อตกลงก่อนแสดงความเห็น ＊</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                         <div class="modal-body fst-italic sarabun-regular">
+                          <ul>
+                            <li>แสดงความคิดเห็นด้วยคำพูดที่สุภาพ</li>
+                            <li>ไม่สปอยล์เนื้อเรื่องสำหรับหนังสือที่แนะนำ</li>
+                            <li>ให้เกียรติผู้ใช้ท่านอื่น</li>
+                            <li>ไม่ทะเลาะวิวาท</li>
+                            <li>ไม่เผยแพร่เนื้อหาที่เป็นส่วนที่สำคัญของเรื่อง</li>
+                          </ul>
+                          <p class="text-danger"><strong>หากไม่ปฏิบัติตามข้อตกลงจะถือว่าทำผิดกฎ และถูกแบนไม่ให้แสดงความคิดเห็น</strong></p>
+
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary sarabun-regular" data-bs-dismiss="modal">รับทราบ !</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
                 <!-- คอมเม้น -->
                 <div class="form-floating">
@@ -202,6 +233,5 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="js/lightbox-plus-jquery.min.js"></script>
   </body>
 </html>
